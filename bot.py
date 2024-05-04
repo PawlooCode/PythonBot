@@ -4,7 +4,7 @@ from discord.ext import commands
 intents = discord.Intents.all()
 client = commands.Bot(command_prefix="!", intents=intents)
 client.remove_command("help")
-welcome_channel_id = 1235629117689565185
+welcome_channel_id = your_welcome_channel_id
 @client.event
 async def on_member_join(member):
     channel = client.get_channel(welcome_channel_id)
