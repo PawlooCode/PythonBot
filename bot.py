@@ -27,7 +27,7 @@ class Verification(discord.ui.View):
       await user.send("Zweryfikowałeś się!")
 
 @client.command()
-async def initializecode88887777(ctx):
+async def initialize(ctx):
   embed = discord.Embed(title = "Zweryfikuj się", description = "Kliknij Poniżej aby się zweryfikować.")
   await ctx.send(embed = embed, view = Verification())
 @client.command()
@@ -40,7 +40,7 @@ async def pomoc(ctx):
     embed.add_field(name="!credits - credity", value="pokazuje kto pracował nad botem", inline=False)
     await ctx.send(embed=embed)
 @client.command()
-async def regulamin_channel88887777(ctx):
+async def regulamin_channel(ctx):
     embed=discord.Embed(title="REGULAMIN", color=0x7aff70)
     embed.add_field(name="Zweryfikować Się Albo Wyrzucenie!", value="", inline=False)
     embed.add_field(name="Zakaz Spamu Albo Ban!", value="", inline=False)
