@@ -66,4 +66,4 @@ async def rybnik(ctx):
 async def clear(ctx, limit:int):
 		await ctx.channel.purge(limit=limit)
 		await ctx.send(f'{limit} wiadomości zostało wyczyszczonych')
-client.run("MTE5MTQxOTM0OTMyNDUyOTcwNQ.Gaw7NZ.qcNOz7KijWs52c85h99Z4YCrqmA6dYXizHhFug")
+client.run("your-bot-token")
