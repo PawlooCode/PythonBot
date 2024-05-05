@@ -1,4 +1,4 @@
-#pawelkowybot.py
+#pawloobot.py
 import discord
 from discord.ext import commands
 intents = discord.Intents.all()
